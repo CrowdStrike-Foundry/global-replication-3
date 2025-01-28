@@ -1,0 +1,17 @@
+name: Global app replication 3
+provision_on_install: true
+trigger:
+    next:
+        - send_email_a338dd7b
+actions:
+    send_email_a338dd7b:
+        id: 07413ef9ba7c47bf5a242799f59902cc
+        properties:
+            _fields:
+                - ${Trigger.CID}
+                - ${Trigger.ObservedTime}
+            msg: Global app replication 3
+            msg_type: text
+            subject: Global app replication 3
+            to:
+                - sasi.panja@crowdstrike.com

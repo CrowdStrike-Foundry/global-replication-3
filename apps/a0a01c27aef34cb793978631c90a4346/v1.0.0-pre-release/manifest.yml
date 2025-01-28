@@ -1,0 +1,29 @@
+app_id: a0a01c27aef34cb793978631c90a4346
+name: Global Replication 3
+description: ""
+logo: ""
+manifest_version: ""
+ignored: []
+ui:
+    homepage: ""
+    extensions: []
+    pages: {}
+    dashboards: {}
+    navigation: {}
+api_integrations: []
+rtr_scripts: []
+collections: []
+auth:
+    scopes: []
+    permissions: {}
+    roles: []
+functions: []
+workflows:
+    - id: b1f20dda22cc4e598ec0b892ae34feb7
+      name: Global app replication 3
+      path: workflows/Global_app_replication_3.yml
+parsers: []
+logscale:
+    saved_searches: []
+lookup_files: []
+app_docs: []
